@@ -11,7 +11,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #363942; /* couleur d'arrière plan lors du chargement du site */
+    background-color: #363942; /* la couleur d'arrière plan lors du chargement du site */
     z-index: 99; /* s'assurer que ça cache le contenu de la page */
 }
 
