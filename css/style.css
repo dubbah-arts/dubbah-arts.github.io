@@ -135,9 +135,13 @@ footer p, footer .bigicon {color: #7e7e7e;}
 .footersocial li a {color: #7e7e7e;}
 .footersocial li a:hover {color: #ea9312;}
 
+/*================================
+Couleurs de la barre de navigation
+================================*/
+
 .navbar-default {
   background-color: #f55d4b;
-  border-color: #f55d4b;
+  border-color: #f76c5c;
 }
 .navbar-default .navbar-brand {
   color: #eeccc8;
@@ -154,19 +158,33 @@ footer p, footer .bigicon {color: #7e7e7e;}
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #ffffff;
 }
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #f55d4b;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #eeccc8;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #ffffff;
+  background-color: #f76c5c;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #f55d4b;
+}
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #ffffff;
-  background-color: #f55d4b;
+  background-color: #f76c5c;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
   color: #ffffff;
-  background-color: #f55d4b;
+  background-color: #f76c5c;
 }
 .navbar-default .navbar-toggle {
-  border-color: #f55d4b;
+  border-color: #f76c5c;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #f55d4b;
+  background-color: #f76c5c;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #eeccc8;
@@ -191,6 +209,9 @@ footer p, footer .bigicon {color: #7e7e7e;}
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #ffffff;
-    background-color: #f55d4b;
+    background-color: #f76c5c;
   }
 }
+
+ 
+ 
