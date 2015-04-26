@@ -103,7 +103,31 @@
             <div class="row">
              <h2 class="wow fadeInDown" data-wow-duration="2s">Contactez-moi !</h2>
 
-             <h4 class="wow fadeInUp" data-wow-duration="3s">Insère ton formulaire ici, patate.</h4>
+             <h4 class="wow fadeInUp" data-wow-duration="3s"><div>
+		<form method="post" target="_blank" onsubmit="return window.confirm(&quot;You are submitting information to an external page. \nAre you sure?&quot;);">
+		  <label>
+		    <span>Votre Nom</span><input type="text" name="field1">
+		  </label>
+		  
+		  <label>
+		    <span>Email Address</span><input type="email" name="field2">
+		  </label>
+		  
+		  <label>
+		    <span>Objet</span><input type="text" name="field3">
+		  </label>
+		  
+		  <label>
+		    <span>Laissez-moi un message</span><textarea name="field4"></textarea>
+		  </label>
+		  
+		  <label>
+		    <span>Envoyer</span><input type="submit" value="Send Letter">
+		  </label>
+		  
+		  
+		</form>
+	</div></h4>
               
              </div> <!-- BIOGRAPHIE: FIN -->
          </div><!-- PARTIE GAUCEH DE LA SECTION: FIN -->
