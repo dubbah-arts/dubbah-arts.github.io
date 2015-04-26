@@ -229,7 +229,7 @@ Couleurs de la barre de navigation
 {
     font-family: 'Indie Flower', cursive;
     font-size: 16px;
-    color: #f55d4b;
+    color: #ffffff;
 }
 .form-style-4 label {
     display:block;
@@ -238,15 +238,15 @@ Couleurs de la barre de navigation
 .form-style-4 label > span{
     display: inline-block;
     float: left;
-    width: 150px;
+    width: 305px;
 }
 .form-style-4 input[type=text],
 .form-style-4 input[type=email] 
 {
     background: transparent;
     border: none;
-    border-bottom: 1px dashed #f55d4b;
-    width: 275px;
+    border-bottom: 1px dashed #ffffff;
+    width: 350px;
     outline: none;
     padding: 0px 0px 0px 0px;
     font-style: italic;
@@ -257,8 +257,8 @@ Couleurs de la barre de navigation
     background: transparent;
     outline: none;
     border: none;
-    border-bottom: 1px dashed #f55d4b5;
-    width: 275px;
+    border-bottom: 1px dashed #ffffff;
+    width: 350px;
     overflow: hidden;
     resize:none;
     height:20px;
