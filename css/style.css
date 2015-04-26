@@ -220,7 +220,7 @@ Formulaire de contact
 .form-style-4{
     width: 450px;
     font-size: 16px;
-    background: #f55d4b;
+    background: #000000;
     padding: 30px 30px 15px 30px;
     border: 5px solid #53687E;
 }
@@ -276,11 +276,11 @@ Formulaire de contact
 }
 .form-style-4 input[type=submit],
 .form-style-4 input[type=button]{
-    background: #576E86;
+    background: #EA9312;
     border: none;
     padding: 8px 10px 8px 10px;
     border-radius: 5px;
-    color: #A8BACE;
+    color: #363942;
 }
 .form-style-4 input[type=submit]:hover,
 .form-style-4 input[type=button]:hover{
