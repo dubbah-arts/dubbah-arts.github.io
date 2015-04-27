@@ -1,176 +1,213 @@
 <!DOCTYPE html>
-<html lang="en">
-    <!-- ===========================
-    EN-TÊTE DE LA PAGE
-    =========================== -->
-  	<head>
-	    <!-- ===========================
-	    TITER DE LA PAGE
-	    =========================== -->
-	    <title>Loubna El Omari - Portfolio, (c)Dubbah Arts 2015, tout droits réservés.</title>
+<html lang="fr">
+    <head> <!-- Début: En-tête de la page -->
 
-	    <!-- ===========================
-	    MINIATURES ET ICONES
-	    =========================== -->
-	    <link rel="icon" href="img/favicon.png">
-	     
-	    <!-- ===========================
-	    FEUILLES DE STYLE CSS
-	    =========================== --> 
-    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
-	    <link rel="stylesheet" href="css/preloader.css">
-	    <link rel="stylesheet" href="css/style.css">
-	    <link rel="stylesheet" href="css/lib/animate.css">
-	        
-	    <!-- ===========================
-	    ICONES
-	    =========================== -->
-	    <link rel="stylesheet" href="css/lib/simple-line-icons.css">    
-	    
-	    <!-- ===========================
-	    POLICES GOOGLE (google fonts)
-	    =========================== -->   
-	    <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
-    </head>
+        <!-- Encodage pour afficher les accents convenablement -->
+        <meta charset="utf-8">
 
-	<!-- ===========================
-    CORPS DE LA PAGE
-    =========================== -->
-    <body data-spy="scroll"> <!--barre de scroll à droite-->
+        <!-- Titre de la page -->
+        <title>Loubna El Omari - Portfolio, (c) Dubbah Arts 2015, tout droits réservés.</title> 
 
-	    <!-- ===========================
-	    ECRAN DE CHARGEMENT (hourglass)
-	    =========================== -->
+        <!-- Icone miniature -->
+        <link rel="icon" href="img/favicon.png">
+         
+        <!-- Feuilles de style CSS --> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/preloader.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/lib/animate.css">
+            
+        <!-- Librairies d'icones simples en CSS -->
+        <link rel="stylesheet" href="css/lib/simple-line-icons.css">    
+        
+        <!-- Bibliothèques d'icones Google Fonts en CSS -->   
+        <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    </head><!-- Fin: En-tête de la page -->
+
+    <body data-spy="scroll"> <!-- Début: Corps de la page -->
+
+        <!-- Ecran de chargement -->
         <div id="preloader">           
             <div id="status">
-                <div class="loadicon icon-hourglass wow tada infinite" data-wow-duration="5s"></div> <!--icone de chargement-->
+                <!-- Icone de chargement -->
+                <div class="loadicon icon-hourglass wow tada infinite" data-wow-duration="5s"></div>
             </div>
         </div>
         
-	    <!-- ===========================
-	    EN TETE
-	    =========================== -->
-       	<header>              
-		    <!-- ===========================
-		    BARRE DE NAVIGATION
-		    =========================== -->
-          	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-               	<div class="container">
-                   	<!-- barre de navigation: titre à gauche -->
+        <!-- Début: En-tête du corps -->
+        <header>              
+            <!-- Début: Barre de navigation en Bootstrap -->
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <!-- Barre de navigation: Le titre à gauche -->
                     <div class="navbar-header">
-                   		<a class="navbar-brand" href="#home">
-                           	<span class="brandicon icon-grid"></span>
-                           	<span class="brandname">Dubbah Arts</span>
-                       	</a>
+                        <a class="navbar-brand" href="index.html">      <!-- Lien Hypertexte -->
+                            <span class="brandicon icon-grid"></span>   <!-- Icone -->
+                            <span class="brandname">Dubbah Arts</span>  <!-- Texte -->
+                        </a>
                     </div>
-                    <!-- barre de navigation: boutons à droite -->
-                	<div class="collapse navbar-collapse">
-                    	<ul class="nav navbar-nav navbar-right">
-                        	<li><a href="index.html"><span class="btnicon icon-user"></span>Accueil</a></li>
-                        	<li><a href="skills.html"><span class="btnicon icon-cup"></span>Compétences</a></li>
-                        	<li><a href="gallery.html"><span class="btnicon icon-picture"></span>Galerie</a></li>
-                        	<li class="active"><a href="contact.html"><span class="btnicon icon-envelope-open"></span>Contact</a></li>
-                        	<li><a href=""><span class="btnicon icon-cloud-download"></span>Mon CV</a></li>
-                    	</ul>
-                	</div>
-            	</div>
-       		</nav><!-- barre de navigation: fin -->        
-     	</header><!-- en-tête: fin -->     
-    
-    <!-- ===========================
-    SECTION ACCUEIL
-    =========================== -->
-     <div id="home" class="container">
-        
-        <!-- PARTIE GAUCHE DE LA SECTION -->
-         <div class="col-md-6">
-            <div class="row">
-             <h2 class="wow fadeInDown" data-wow-duration="2s">Contactez-moi !</h2>
 
-             <h4 class="wow fadeInUp" data-wow-duration="3s"></h4>
-			 <div class="form-style-4">
-				<form method="post" target="_blank" onsubmit="return window.confirm(&quot;Êtes-vous sûr de vouloir envoyer ce message?&quot;);">
-					<label>
-						<span>Votre Nom</span><input type="text" name="field1">
-					</label>
-					
-					<label>
-						<span>Email Address</span><input type="email" name="field2">
-					</label>
-				  
-					<label>
-						<span>Objet</span><input type="text" name="field3">
-					</label>
-				  
-					<label>
-						<span>Laissez-moi un message</span><textarea name="field4"></textarea>
-					</label>
-				  
-					<label>
-						<span>Fin.</span><input type="submit" value="Envoyer">
-					</label>
-				</form>
-			</div>
-              
+                    <!-- Barre de navigation: Les boutons à droite -->
+                    <div class="collapse navbar-collapse">
+                        <!-- Liste des menus -->
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="index.html">                        <!-- Lien Hypertexte -->
+                                    <span class="btnicon icon-user"></span>  <!-- Icone -->
+                                    Accueil                                  <!-- Texte -->
+                                </a>
+                            </li>
+                            <li>
+                                <a href="skills.html">                        <!-- Lien Hypertexte -->
+                                    <span class="btnicon icon-cup"></span>    <!-- Icone -->
+                                    Compétences                               <!-- Texte -->
+                                </a>
+                            </li>
+                            <li>
+                                <a href="gallery.html">                        <!-- Lien Hypertexte -->
+                                    <span class="btnicon icon-picture"></span> <!-- Icone -->
+                                    Galerie                                    <!-- Texte -->
+                                </a>
+                            </li>
+                            <li class="active">                                         <!-- Menu actif -->
+                                <a href="contact.html">                                 <!-- Lien Hypertexte -->
+                                    <span class="btnicon icon-envelope-open"></span>    <!-- Icone -->
+                                    Contact                                             <!-- Texte -->
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">                                            <!-- Lien Hypertexte -->
+                                    <span class="btnicon icon-cloud-download"></span>  <!-- Icone -->
+                                    Mon CV                                             <!-- Texte -->
+                                </a>
+                            </li>
+                        </ul> <!-- Fin: Liste des menus -->
+                    </div>
+                </div>
+            </nav> <!-- Fin: Barre de navigation en Bootstrap -->        
+        </header> <!-- Fin: En-tête du corps -->
+    
+    <!-- ======================
+    Début: SECTION DE CONTACT
+    =========================== -->      
+     <div id="home" class="container">
+        <!-- Début: Formulaire, Partie Gauche. -->
+        <div class="col-md-6">
+            <div class="row">
+                <h2 class="wow fadeInDown" data-wow-duration="2s">
+                    Contactez-moi !
+                </h2>
+			     
+                <div class="form-style-4">  <!-- Style du formulaire -->
+                    <form method="post" target="_blank" onsubmit="return window.confirm(&quot;Êtes-vous sûr de vouloir envoyer ce message?&quot;);"> 
+    					<label>
+    						<span>Votre Nom</span>
+                            <input type="text" name="field1">
+    					</label>
+    					<label>
+    						<span>Email Address</span>
+                            <input type="email" name="field2">
+    					</label>
+    					<label>
+    						<span>Objet</span>
+                            <input type="text" name="field3">
+    					</label>
+    					<label>
+    						<span>Laissez-moi un message</span>
+                            <textarea name="field4"></textarea>
+    					</label>
+    					<label>
+    						<span>Fin.</span>
+                            <input type="submit" value="Envoyer">
+    					</label>
+				    </form>
+			    </div>
              </div> <!-- BIOGRAPHIE: FIN -->
-         </div><!-- PARTIE GAUCEH DE LA SECTION: FIN -->
+         </div><!-- Fin: Formulaire, Partie Gauche -->
 
          
-         <!-- PARTIE DROITE DE LA SECTION -->
-         <div class="col-md-6 wow fadeInUp myphoto" data-wow-duration="4s">
-             <img src="img/user.png" alt="Loubna El Omari">
-         </div><!-- PARTIE DROITE DE LA SECTION: FIN -->        
-     </div><!-- SECTION ACCUEIL: FIN -->
+        <!-- Début: Partie Droite -->
+         <div class="col-md-6 wow fadeInUp myphoto" data-wow-duration="4s"> <!-- Effet de fondu -->
+             <img src="img/user.png" alt="Loubna El Omari">                 <!-- Photo -->
+         </div><!-- Fin: Partie Droite -->     
+     </div>
+    <!-- ======================
+    Fin: SECTION DE CONTACT
+    =========================== -->      
         
-    <hr><!-- LIGNE DE SEPARATION -->
+    <hr><!-- Ligne de séparation -->
 
-    <!-- ===========================
-    SECTION PIED DE LA PAGE : FOOTER
-    =========================== -->    
-    <footer>
+    <footer> <!-- Début: Pied de la page -->    
         <div class="container">
             <span class="bigicon icon-speedometer "></span>
              
-            <div class="footerlinks"><!-- LIENS FOOTER -->            
-                <ul>
-                    <li><a href="#home">Accueil</a></li>
-                    <li><a href="#skills">Compétences</a></li>
-                    <li><a href="#gallery">Galerie</a></li>
-                    <li><a href="mailto:loubna.mari@gmail.com">Contact</a></li>                   
+            <div class="footerlinks"><!-- Début: Liens du pied de la page -->            
+                <ul> 
+                    <li>
+                        <a href="index.html">Accueil</a>         <!-- Lien Hypertexte -->            
+                    </li>
+                    <li>
+                        <a href="skills.html">Compétences</a>    <!-- Lien Hypertexte -->
+                    </li>
+                    <li>
+                        <a href="gallery.html">Galerie</a>       <!-- Lien Hypertexte -->
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>       <!-- Lien Hypertexte -->
+                    </li>                   
                 </ul>
             </div><!-- LIENS FOOTER: FIN-->
              
-            <div class="copyright"><!-- COPYRIGHT -->
+            <div class="copyright"><!-- Début: Copyright -->
                 <p>© <a href="#">Dubbah Arts</a> 2015. Tous droits reservés.</p>
-            </div><!-- COPYRIGHT: FIN -->
+            </div><!-- Fin: Copyright -->
              
+            <!-- Début: Contact sur les réseaux sociaux -->
             <div class="footersocial wow fadeInUp" data-wow-duration="3s">
                 <ul>
-                    <li><a href="https://www.facebook.com/Jen.yu.chan"><span class="icon-social-facebook"></span></a></li>
-                    <li><a href="http://twitter.com/Volmine"><span class="icon-social-twitter"></span></a></li>
-                    <li><a href="#"><span class="icon-social-youtube"></span></a></li>
-                    <li><a href="#"><span class="icon-social-tumblr"></span></a></li>
+                    <li>
+                        <a href="https://www.facebook.com/Jen.yu.chan">       <!-- Lien Hypertexte -->
+                            <span class="icon-social-facebook"></span>        <!-- Icone Facebook-->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://twitter.com/Volmine">         <!-- Lien Hypertexte -->
+                            <span class="icon-social-twitter"></span> <!-- Icone Twitter -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">                                  <!-- Lien Hypertexte -->
+                            <span class="icon-social-youtube"></span> <!-- Icone Youtube-->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">                                  <!-- Lien Hypertexte -->
+                            <span class="icon-social-tumblr"></span>  <!-- Icone Tumblr-->
+                        </a>
+                    </li>
                  </ul>
-             </div><!-- FOOTER RESEAUX SOCIAUX: FIN -->
+             </div> <!-- Fin: Contact sur les réseaux sociaux -->
          </div>
-     </footer><!-- FOOTER: FIN -->    
+     </footer> <!-- Fin: Pied de la page -->
     
 
-    <!-- ===========================
-    SCRIPTS
-    =========================== -->       
+    <!-- Ensemble de scripts importés pour charger la page -->       
 
-    <!-- jQuery (utilisé pour les plugins Javascript de Boostrap -->
+    <!-- jQuery est utilisé pour les les élements de Boostrap -->
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     
-    <!-- Bootstrap (inclu tous les plugins ci-dessous) -->
+    <!-- Bootstrap est une compilation de plusieurs élements et fonction web-design personnalisables -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+    <!-- Bibliothéque complémentaire pour jQuery servant à rendre les défilement plus joli -->
+    <script src="js/lib/jquery.nicescroll.min.js"></script>             
     
-    <!-- Autres scripts utilisés-->
-    <script src="js/lib/jquery.nicescroll.min.js"></script>
-    <script src="js/lib/jquery.jribbble-1.0.1.ugly.js"></script>
+    <!-- Nos scripts personnels -->
     <script src="js/main.js"></script>
+
+    <!-- WOW.js est un script qui sert à révèler les images avec une animation jolie lorsqu'on défile les pages. -->
     <script src="js/lib/wow.min.js"></script>
     <script>new WOW().init();</script>    
-  </body>
+
+  </body> <!-- Fin: Corps de la page -->
 </html>

@@ -1,170 +1,216 @@
 <!DOCTYPE html>
-<html lang="en">
-    <!-- ===========================
-    EN-TÊTE DE LA PAGE
-    =========================== -->
-  	<head>
-	    <!-- ===========================
-	    TITER DE LA PAGE
-	    =========================== -->
-	    <title>Loubna El Omari - Portfolio, (c)Dubbah Arts 2015, tout droits réservés.</title>
+<html lang="fr">
+  	<head> <!-- Début: En-tête de la page -->
 
-	    <!-- ===========================
-	    MINIATURES ET ICONES
-	    =========================== -->
+        <!-- Encodage pour afficher les accents convenablement -->
+        <meta charset="utf-8">
+
+	    <!-- Titre de la page -->
+        <title>Loubna El Omari - Portfolio, (c) Dubbah Arts 2015, tout droits réservés.</title> 
+
+        <!-- Icone miniature -->
 	    <link rel="icon" href="img/favicon.png">
 	     
-	    <!-- ===========================
-	    FEUILLES DE STYLE CSS
-	    =========================== --> 
+	    <!-- Feuilles de style CSS --> 
     	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
 	    <link rel="stylesheet" href="css/preloader.css">
 	    <link rel="stylesheet" href="css/style.css">
 	    <link rel="stylesheet" href="css/lib/animate.css">
 	        
-	    <!-- ===========================
-	    ICONES
-	    =========================== -->
+	    <!-- Librairies d'icones simples en CSS -->
 	    <link rel="stylesheet" href="css/lib/simple-line-icons.css">    
 	    
-	    <!-- ===========================
-	    POLICES GOOGLE (google fonts)
-	    =========================== -->   
+	    <!-- Bibliothèques d'icones Google Fonts en CSS -->   
 	    <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
-    </head>
+    </head><!-- Fin: En-tête de la page -->
 
-	<!-- ===========================
-    CORPS DE LA PAGE
-    =========================== -->
-    <body data-spy="scroll"> <!--barre de scroll à droite-->
+    <body data-spy="scroll"> <!-- Début: Corps de la page -->
 
-	    <!-- ===========================
-	    ECRAN DE CHARGEMENT (hourglass)
-	    =========================== -->
+	    <!-- Ecran de chargement -->
         <div id="preloader">           
             <div id="status">
-                <div class="loadicon icon-hourglass wow tada infinite" data-wow-duration="5s"></div> <!--icone de chargement-->
+                <!-- Icone de chargement -->
+                <div class="loadicon icon-hourglass wow tada infinite" data-wow-duration="5s"></div>
             </div>
         </div>
         
-	    <!-- ===========================
-	    EN TETE
-	    =========================== -->
+	    <!-- Début: En-tête du corps -->
        	<header>              
-		    <!-- ===========================
-		    BARRE DE NAVIGATION
-		    =========================== -->
+		    <!-- Début: Barre de navigation en Bootstrap -->
           	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
                	<div class="container">
-                   	<!-- barre de navigation: titre à gauche -->
+                   	<!-- Barre de navigation: Le titre à gauche -->
                     <div class="navbar-header">
-                   		<a class="navbar-brand" href="#home">
-                           	<span class="brandicon icon-grid"></span>
-                           	<span class="brandname">Dubbah Arts</span>
+                   		<a class="navbar-brand" href="index.html">      <!-- Lien Hypertexte -->
+                           	<span class="brandicon icon-grid"></span>   <!-- Icone -->
+                           	<span class="brandname">Dubbah Arts</span>  <!-- Texte -->
                        	</a>
                     </div>
-                    <!-- barre de navigation: boutons à droite -->
+
+                    <!-- Barre de navigation: Les boutons à droite -->
                 	<div class="collapse navbar-collapse">
+                        <!-- Liste des menus -->
                     	<ul class="nav navbar-nav navbar-right">
-                        	<li class="active"><a href="index.html"><span class="btnicon icon-user"></span>Accueil</a></li>
-                        	<li><a href="skills.html"><span class="btnicon icon-cup"></span>Compétences</a></li>
-                        	<li><a href="gallery.html"><span class="btnicon icon-picture"></span>Galerie</a></li>
-                        	<li><a href="contact.html"><span class="btnicon icon-envelope-open"></span>Contact</a></li>
-                        	<li><a href=""><span class="btnicon icon-cloud-download"></span>Mon CV</a></li>
-                    	</ul>
+                        	<li class="active">                              <!-- Menu actif -->
+                                <a href="index.html">                        <!-- Lien Hypertexte -->
+                                    <span class="btnicon icon-user"></span>  <!-- Icone -->
+                                    Accueil                                  <!-- Texte -->
+                                </a>
+                            </li>
+                        	<li>
+                                <a href="skills.html">                        <!-- Lien Hypertexte -->
+                                    <span class="btnicon icon-cup"></span>    <!-- Icone -->
+                                    Compétences                               <!-- Texte -->
+                                </a>
+                            </li>
+                        	<li>
+                                <a href="gallery.html">                        <!-- Lien Hypertexte -->
+                                    <span class="btnicon icon-picture"></span> <!-- Icone -->
+                                    Galerie                                    <!-- Texte -->
+                                </a>
+                            </li>
+                        	<li>
+                                <a href="contact.html">                                 <!-- Lien Hypertexte -->
+                                    <span class="btnicon icon-envelope-open"></span>    <!-- Icone -->
+                                    Contact                                             <!-- Texte -->
+                                </a>
+                            </li>
+                        	<li>
+                                <a href="">                                            <!-- Lien Hypertexte -->
+                                    <span class="btnicon icon-cloud-download"></span>  <!-- Icone -->
+                                    Mon CV                                             <!-- Texte -->
+                                </a>
+                            </li>
+                    	</ul> <!-- Fin: Liste des menus -->
                 	</div>
             	</div>
-       		</nav><!-- barre de navigation: fin -->        
-     	</header><!-- en-tête: fin -->     
+       		</nav> <!-- Fin: Barre de navigation en Bootstrap -->        
+     	</header> <!-- Fin: En-tête du corps -->
     
-    <!-- ===========================
-    SECTION ACCUEIL
+    <!-- ======================
+    Début: SECTION D'ACCUEIL 
     =========================== -->
-     <div id="home" class="container">
-        
-        <!-- PARTIE GAUCHE DE LA SECTION -->
-         <div class="col-md-6">
-            <div class="row">
-             <h2 class="wow fadeInDown" data-wow-duration="2s">Bienvenue sur mon Portfolio !</h2>
+    <div id="home" class="container">
+        <!-- Début: Biographie, Partie Gauche -->
+        <div class="col-md-6">
+            <div class="row"> <!-- Partie texte -->
+                <h2 class="wow fadeInDown" data-wow-duration="2s">      <!-- Nombre de secondes pour l'apparition ou disparition en fondu -->
+                    Bienvenue sur mon Portfolio !                       <!-- Texte concerné par l'effet -->
+                </h2>
 
-             <h4 class="wow fadeInUp" data-wow-duration="3s">Je m'appelle Loubna et je serai bientôt diplomée en Infographie.</h4>
-             <h4 class="wow fadeInUp" data-wow-duration="3s">Ici, vous allez découvrir mes travaux, mes gribouillage et bien d'autres.</h4>
-              <br/>
-              <h4 class="wow fadeInUp" data-wow-duration="3s">Bonne visite ; )</h4>
-             
-             <!--
-             <p class="wow fadeInDown" data-wow-duration="3s">Ici, vous allez trouver mes travaux, mes gribouillage et bien d'autres ;)</p>
-             -->
-             
-             </div> <!-- BIOGRAPHIE: FIN -->
+                <h4 class="wow fadeInUp" data-wow-duration="3s">                        <!-- Nombre de secondes pour l'apparition ou disparition en fondu -->
+                    Je m'appelle Loubna et je serai bientôt diplomée en Infographie.    <!-- Texte concerné par l'effet -->
+                </h4>
+                
+                <h4 class="wow fadeInUp" data-wow-duration="3s">                              <!-- Nombre de secondes pour l'apparition ou disparition en fondu -->
+                    Ici, vous allez découvrir mes travaux, mes gribouillage et bien d'autres. <!-- Texte concerné par l'effet -->
+                </h4>
+                
+                <br/>
+                <h4 class="wow fadeInUp" data-wow-duration="3s">    <!-- Nombre de secondes pour l'apparition ou disparition en fondu -->
+                    Bonne visite ; )                                <!-- Texte concerné par l'effet -->                
+                </h4>             
+             </div>
              
             
-            <div class="myapps row">
+            <div class="myapps row"> <!-- Partie icones -->
                 <h5>Outils et logiciels que j'utilise:</h5>
                 
-                <ul><!-- APPLICATIONS FAVORIS -->
-                    <li><img class="wow animated bounceInUp" data-wow-duration="1s" src="img/outils/photoshop.svg" alt="Photoshop"></li>
-                    <li><img class="wow bounceInUp" data-wow-duration="2s" src="img/outils/illustrator.svg" alt="Illustrator"></li>
-                </ul><!-- APPLICATIONS FAVORIS: FIN -->
+                <ul><!-- Début: Icones des applications favoris -->
+                    <li>
+                        <img class="wow animated bounceInUp" data-wow-duration="1s" src="img/outils/photoshop.svg" alt="Photoshop"> <!-- Image avec effet de fondu -->
+                    </li>
+                    <li>
+                        <img class="wow bounceInUp" data-wow-duration="2s" src="img/outils/illustrator.svg" alt="Illustrator">      <!-- Image avec effet de fondu -->
+                    </li>
+                </ul><!-- Fin: Icones des applications favoris -->
             </div>
-         </div><!-- PARTIE GAUCEH DE LA SECTION: FIN -->
+         </div><!-- Fin: Biographie, Partie Gauche -->
 
          
-         <!-- PARTIE DROITE DE LA SECTION -->
-         <div class="col-md-6 wow fadeInUp myphoto" data-wow-duration="4s">
-             <img src="img/user.png" alt="Loubna El Omari">
-         </div><!-- PARTIE DROITE DE LA SECTION: FIN -->        
-     </div><!-- SECTION ACCUEIL: FIN -->
+        <!-- Début: Biographie, Partie Droite -->
+         <div class="col-md-6 wow fadeInUp myphoto" data-wow-duration="4s"> <!-- Effet de fondu -->
+             <img src="img/user.png" alt="Loubna El Omari">                 <!-- Photo -->
+         </div><!-- Fin: Biographie, Partie Droite -->  
+     </div>
+    <!-- ======================
+    Fin: SECTION D'ACCUEIL 
+    =========================== -->     
         
-    <hr><!-- LIGNE DE SEPARATION -->
+    <hr/><!-- Ligne de séparation -->
        
-    <!-- ===========================
-    SECTION PIED DE LA PAGE : FOOTER
-    =========================== -->    
-    <footer>
+    <footer> <!-- Début: Pied de la page -->    
         <div class="container">
             <span class="bigicon icon-speedometer "></span>
              
-            <div class="footerlinks"><!-- LIENS FOOTER -->            
-                <ul>
-                    <li><a href="#home">Accueil</a></li>
-                    <li><a href="#skills">Compétences</a></li>
-                    <li><a href="#gallery">Galerie</a></li>
-                    <li><a href="mailto:loubna.mari@gmail.com">Contact</a></li>                   
+            <div class="footerlinks"><!-- Début: Liens du pied de la page -->            
+                <ul> 
+                    <li>
+                        <a href="index.html">Accueil</a>         <!-- Lien Hypertexte -->            
+                    </li>
+                    <li>
+                        <a href="skills.html">Compétences</a>    <!-- Lien Hypertexte -->
+                    </li>
+                    <li>
+                        <a href="gallery.html">Galerie</a>       <!-- Lien Hypertexte -->
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>       <!-- Lien Hypertexte -->
+                    </li>                   
                 </ul>
             </div><!-- LIENS FOOTER: FIN-->
              
-            <div class="copyright"><!-- COPYRIGHT -->
+            <div class="copyright"><!-- Début: Copyright -->
                 <p>© <a href="#">Dubbah Arts</a> 2015. Tous droits reservés.</p>
-            </div><!-- COPYRIGHT: FIN -->
+            </div><!-- Fin: Copyright -->
              
+            <!-- Début: Contact sur les réseaux sociaux -->
             <div class="footersocial wow fadeInUp" data-wow-duration="3s">
                 <ul>
-                    <li><a href="https://www.facebook.com/Jen.yu.chan"><span class="icon-social-facebook"></span></a></li>
-                    <li><a href="http://twitter.com/Volmine"><span class="icon-social-twitter"></span></a></li>
-                    <li><a href="#"><span class="icon-social-youtube"></span></a></li>
-                    <li><a href="#"><span class="icon-social-tumblr"></span></a></li>
+                    <li>
+                        <a href="https://www.facebook.com/Jen.yu.chan">       <!-- Lien Hypertexte -->
+                            <span class="icon-social-facebook"></span>        <!-- Icone Facebook-->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://twitter.com/Volmine">         <!-- Lien Hypertexte -->
+                            <span class="icon-social-twitter"></span> <!-- Icone Twitter -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">                                  <!-- Lien Hypertexte -->
+                            <span class="icon-social-youtube"></span> <!-- Icone Youtube-->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">                                  <!-- Lien Hypertexte -->
+                            <span class="icon-social-tumblr"></span>  <!-- Icone Tumblr-->
+                        </a>
+                    </li>
                  </ul>
-             </div><!-- FOOTER RESEAUX SOCIAUX: FIN -->
+             </div> <!-- Fin: Contact sur les réseaux sociaux -->
          </div>
-     </footer><!-- FOOTER: FIN -->
+     </footer> <!-- Fin: Pied de la page -->
     
 
-    <!-- ===========================
-    SCRIPTS
-    =========================== -->       
+    <!-- Ensemble de scripts importés pour charger la page -->       
 
-    <!-- jQuery (utilisé pour les plugins Javascript de Boostrap -->
+    <!-- jQuery est utilisé pour les les élements de Boostrap -->
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     
-    <!-- Bootstrap (inclu tous les plugins ci-dessous) -->
+    <!-- Bootstrap est une compilation de plusieurs élements et fonction web-design personnalisables -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+    <!-- Bibliothéque complémentaire pour jQuery servant à rendre les défilement plus joli -->
+    <script src="js/lib/jquery.nicescroll.min.js"></script>             
     
-    <!-- Autres scripts utilisés-->
-    <script src="js/lib/jquery.nicescroll.min.js"></script>
-    <script src="js/lib/jquery.jribbble-1.0.1.ugly.js"></script>
+    <!-- Nos scripts personnels -->
     <script src="js/main.js"></script>
+
+    <!-- WOW.js est un script qui sert à révèler les images avec une animation jolie lorsqu'on défile les pages. -->
     <script src="js/lib/wow.min.js"></script>
     <script>new WOW().init();</script>    
-  </body>
+
+  </body> <!-- Fin: Corps de la page -->
 </html>
+

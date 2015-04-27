@@ -9,7 +9,7 @@
 Typographie du site
 ================================*/
 body {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Indie Flower', cursive; /* Famille de la police utilisé */
     line-height: 1.8em;
 }
 

@@ -2,7 +2,7 @@
 // CHARGEUR
 //========================
 $(window).load(function() { // s'assurer que la page est chargée en entier
-	$('#status').fadeOut(); // faire un fade out lors de l'animation de chargement 
+	$('#status').fadeOut(); // faire un fondu de l'animation lors du chargement 
 	$('#preloader').delay(350).fadeOut('slow');
     // fade out le div blanc qui couvre la page
 	$('body').delay(350).css({'overflow':'visible'});
